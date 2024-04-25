@@ -1,0 +1,23 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.profile__name {
+    font-size: 2em;
+    line-height: 50px;
+}
+.profile__info {
+    box-shadow: -20px 20px 0 -17px #eee, 20px -20px 0 -17px #eee, 20px 20px 0 -20px aqua, 0 0 0 2px aqua;
+}
+
+.profile__image {
+    width: 184px;
+    height: 245px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
