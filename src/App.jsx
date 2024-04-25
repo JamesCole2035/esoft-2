@@ -5,16 +5,15 @@ import Card from './Components/Card/Card'
 import Profile from './Components/Profile/Profile'
 import Skill from './Components/Skill/Skill'
 
-
 function App() {
   return (
     <>
       <header>
-        <h1 className='header__text'>Страничка с моими навыками</h1>
+        <h1 className='header__text'>Приветствую! Вы находитесь на личной страничке</h1>
       </header>
       <main className='content'>
         <div className="content__about">
-          <Profile name="Бочков Михаил Сергеевич" mail="jamescole2035@inbox.ru"/>
+          <Profile name="Бочков Михаил Сергеевич" mail="jamescole2035@inbox.ru" tg="https://t.me/JamesCole2035" />
         </div>
         <Skill className="content__title" text="Мои навыки"/>
         <div className="content__cards">

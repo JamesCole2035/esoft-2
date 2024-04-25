@@ -11,13 +11,14 @@
     line-height: 50px;
 }
 .profile__info {
-    box-shadow: -20px 20px 0 -17px #eee, 20px -20px 0 -17px #eee, 20px 20px 0 -20px aqua, 0 0 0 2px aqua;
+    padding-left: 20px;
+    box-shadow: -20px 20px 0 -17px #eee, 20px 20px 0 -20px mediumspringgreen, 20px -20px 0 -17px #eee,  0 0 0 2px mediumspringgreen;
 }
 
 .profile__image {
     width: 184px;
     height: 245px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
     margin-right: 20px;
 }
