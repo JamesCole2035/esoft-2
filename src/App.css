@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  height: 50px;
+}
+.header__text {
+  line-height: 25px;
+  text-align: center;
+}
+h1 {
+  font-size: 1.25em;
+  line-height: 25px;
+}
+main {
+  width: 100%;
+  height: calc(100% - 100px);
+}
+.content__cards {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  box-shadow: -20px 20px 0 -17px #eee, 20px -20px 0 -17px #eee, 20px 20px 0 -20px aqua, 0 0 0 2px aqua;
+}
+footer {
+  width: 100%;
+  height: 50px;
+}
+.footer__text {
+  line-height: 25px;
+  text-align: center;
+}

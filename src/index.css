@@ -1,0 +1,17 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: black;  
+}
+
+#root, body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  align-content: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+}
