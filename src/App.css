@@ -10,18 +10,23 @@ h1 {
   font-size: 1.25em;
   line-height: 25px;
 }
-main {
-  width: 100%;
+.content {  
+  max-width: 1200px;
   height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .content__cards {
   margin: 0 auto;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 1200px;
-  box-shadow: -20px 20px 0 -17px #eee, 20px -20px 0 -17px #eee, 20px 20px 0 -20px aqua, 0 0 0 2px aqua;
+  width: 100%;
+  align-items: center;
+  box-shadow: -20px 20px 0 -17px #eee, 20px -20px 0 -17px #eee, 20px 20px 0 -20px aqua, 0 0 0 2px aqua;  
 }
 footer {
   width: 100%;

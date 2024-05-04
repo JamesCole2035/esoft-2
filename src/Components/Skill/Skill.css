@@ -1,5 +1,7 @@
 .skill__title {
-    width: auto;
-    line-height: 30px;
+    width: 100%;
+    height: 10px;
+    line-height: 10px;
     text-align: center;
-  }
+    margin: 1.5%;
+}

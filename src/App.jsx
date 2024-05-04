@@ -1,11 +1,12 @@
 import { useState, Fragment } from 'react'
 import './Components/Card/Card'
 import './App.css'
-import Card from './Components/Card/Card'
 import Profile from './Components/Profile/Profile'
 import Skill from './Components/Skill/Skill'
 
-function App() {
+function App(props) {
+  const currentSkills = props.currentSkills;
+  const futureSkills = props.futureSkills;
   return (
     <>
       <header>
@@ -14,26 +15,12 @@ function App() {
       <main className='content'>
         <div className="content__about">
           <Profile name="Бочков Михаил Сергеевич" mail="jamescole2035@inbox.ru" tg="https://t.me/JamesCole2035" />
-        </div>
-        <Skill className="content__title" text="Мои навыки"/>
+        </div>     
         <div className="content__cards">
-          <Card text="PHP" />
-          <Card text="JS" />
-          <Card text="C#" />
-          <Card text="GIT" />
+          <Skill skills={currentSkills} text="Мои навыки"/>
         </div>
-        <Skill className="content__title" text="Чему хотелось бы научиться"/>        
         <div className="content__cards">
-          <Card text="Docker" />
-          <Card text="GraphQL" />
-          <Card text="Grafana, Prometheus" />
-          <Card text="NextJS" />
-          <Card text="Nuxt" />
-          <Card text="Java" />
-          <Card text="Spring" />
-          <Card text=".Net" />
-          <Card text="WebSocket" />
-          <Card text="SQL, ORM" />
+          <Skill skills={futureSkills} text="Чему хотелось бы научиться"/>
         </div>
       </main>
       <footer>
